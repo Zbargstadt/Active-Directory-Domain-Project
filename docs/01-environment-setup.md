@@ -1,6 +1,7 @@
 # Phase 1.0: Environment Setup
 ## 1.1: Hardware / Software Utilization
 This section discusses how my VM's will be setup on my personal host, along with the resources allocated to each Virtual Machine
+
 *   **Host Machine:** Windows PC (16GB RAM / NVME SSD)
 *   **Documentation Station:** Laptop
 *   **Hypervisor:** VMware Workstation
@@ -8,7 +9,7 @@ This section discusses how my VM's will be setup on my personal host, along with
 **VM Resource Allocation**
 | VM Name | Operating System | Role | RAM | SSD Space | Processors |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **DC01** | Win Server 2022 | Domain Controller | 4 GB | 20 GB | 2 |
+| **DC01** | Win Server 2022 (Desktop Experience) | Domain Controller | 4 GB | 20 GB | 2 |
 | **CLIENT01** | Windows 11 Enterprise | Workstation | 4 GB | 64 GB | 2 |
 
 ## 1.2: Virtual Network Configurations
