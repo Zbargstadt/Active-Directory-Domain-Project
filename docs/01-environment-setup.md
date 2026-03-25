@@ -36,9 +36,8 @@ These are the setting for the VMware network editor that mimic a switch connecti
  
 ## 1.4 Verification Screenshots
 **DC01 Network Configuration**
-| ![DC01 Config](../diagrams/dc01-ipconfig.png) |
-| :---: |
-| *Figure 1: Confirmed Static IP and DNS settings on DC01.* |
+<img src="../diagrams/dc01-ipconfig.png" width="80%">
+*Figure 1: Confirmed Static IP and DNS settings on DC01.*
 
 **Client Connectivity Test**
 ![Client Ping](../diagrams/client-ping-test.png)
