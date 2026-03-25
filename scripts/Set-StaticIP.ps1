@@ -1,4 +1,4 @@
-# This power script will set the configure the static IP and DNS for the Lab Domain Controller (DC01).
+# This power script will configure the static IP and DNS for the Lab Domain Controller (DC01).
 
 # Identifies the active network adapter
 $Interface = (Get-NetAdapter | Where-Object Status -eq "Up" | Select-Object -First 1).Name
