@@ -43,6 +43,13 @@ These are the setting for the VMware network editor that mimic a switch connecti
    <i>Figure 1: Confirmed Static IP and DNS settings on DC01.</i>
 </p>
 
+<p align="left">
+   <b>Client Connectivity Test</b>
+   <br>
+   <img src="../diagrams/client-ping-test.png" width="70%">
+   <br>
+   <i>Figure 2: Successful ICMP ping from Windows 11 Client to DC01.</i>
+</p>
 **Client Connectivity Test**
 ![Client Ping](../diagrams/client-ping-test.png)
 *Figure 2: Successful ICMP ping from Windows 11 Client to DC01.*
