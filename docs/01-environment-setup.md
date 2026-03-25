@@ -20,3 +20,16 @@ These are the setting for the VMware network editor that mimic a switch connecti
 *   **Subnet Mask:** 255.255.255.0
 *   **Gateway:** 192.168.10.2 (VMware Default)
 *   **DHCP Status:** Disabled in VMware (To be managed by Windows Server DC01).
+
+## 1.3 Build Steps
+* **Configure VMware Virtual Network**
+    * Verified that DHCP is disabled on VMnet8 (DC01 will handle DHCP later).
+    * Assigned the virtual machines to VMnet8
+* **Windows Server 2022 Installation**
+    * Standard "Desktop Experience" installation.
+    * Set static IP `192.168.10.10` to ensure DNS reliability.
+    * Set preferred DNS server to '127.0.0.1' (Loopback Address)
+    * Renamed computer to `DC01`.
+* **Windows 11 Client Installation**
+    * Performed clean install of Windows 11 Enterprise.
+    * Verified network connectivity to `DC01` via ICMP (ping).
