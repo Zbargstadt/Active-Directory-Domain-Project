@@ -28,8 +28,17 @@ These are the setting for the VMware network editor that mimic a switch connecti
 * **Windows Server 2022 Installation**
     * Standard "Desktop Experience" installation.
     * Set static IP `192.168.10.10` to ensure DNS reliability.
-    * Set preferred DNS server to '127.0.0.1' (Loopback Address)
+    * Set preferred DNS server to `127.0.0.1` (Loopback Address)
     * Renamed computer to `DC01`.
 * **Windows 11 Client Installation**
     * Performed clean install of Windows 11 Enterprise.
     * Verified network connectivity to `DC01` via ICMP (ping).
+ 
+## 1.4 Verification Screenshots
+**DC01 Network Configuration**
+![DC01 IPConfig](../diagrams/dc01-ipconfig.png)
+*Figure 1: Confirmed Static IP and DNS settings on the Domain Controller.*
+
+**Client Connectivity Test**
+![Client Ping](../diagrams/client-ping-test.png)
+*Figure 2: Successful ICMP ping from Windows 11 Client to DC01.*
