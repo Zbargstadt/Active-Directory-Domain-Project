@@ -1,5 +1,5 @@
-#Phase 1.0: Environment Setup
-##1.1: Hardware / Software Utilization
+# Phase 1.0: Environment Setup
+## 1.1: Hardware / Software Utilization
 *   **Host Machine:** Windows PC (16GB RAM / SSD)
 *   **Documentation Station:** Laptop
 *   **Hypervisor:** VMware Workstation
