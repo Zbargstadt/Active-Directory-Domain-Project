@@ -38,7 +38,7 @@ These are the setting for the VMware network editor that mimic a switch connecti
 <p align="left">
    <b>DC01 Network Configuration</b>
    <br>
-   <img src="../diagrams/dc01-ipconfig.png" width="60%">
+   <img src="../diagrams/dc01-ipconfig.png" width="70%">
    <br>
    <i>Figure 1: Confirmed Static IP and DNS settings on DC01.</i>
 </p>
