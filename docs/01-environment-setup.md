@@ -13,7 +13,7 @@ This section discusses how my VM's will be setup on my personal host, along with
 | **CLIENT01** | Windows 11 Enterprise | Workstation | 4 GB | 64 GB | 2 |
 
 ## 1.2: Virtual Network Configurations
-These are the setting that I used for the VMware network editor in order to mimic a switch connecting the devices, like that in a real-world environment. I chose NAT in order to allow for internet access while still keeping the network isolated
+These are the setting for the VMware network editor that mimic a switch connecting the devices, like that in a real-world environment. The network type was set to NAT, in order to allow for internet access while still keeping the network isolated
 
 *   **Network Type:** NAT (VMnet8)
 *   **Subnet IP:** 192.168.10.0
