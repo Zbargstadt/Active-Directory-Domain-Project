@@ -3,13 +3,9 @@
 ## 2.1: Domain Controller Promotion
 * **Installing Active Directory Domain Services**
     * Server Manager > Manage > Add Roles & Features > Active Directory Domain Services
-    * Assigned the virtual machines to VMnet8
-* **Windows Server 2022 Installation**
-    * Standard "Desktop Experience" installation.
-    * Set static IP `192.168.10.10` to ensure DNS reliability
-    * Set preferred DNS server to `127.0.0.1` (Loopback Address)
-    * Renamed computer to `DC01`
-* **Windows 11 Client Installation**
+    * After installation click option for "Promote this server to a domain controller"
+    * Added a new forest with the domain name lab.domain.com, in order to follow sub domain naming practices
+
 
 
 ## 2.2: Adding CLIENT01 to Domain
