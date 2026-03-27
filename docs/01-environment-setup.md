@@ -49,7 +49,7 @@ This section goes over some troubles I ran into while attempting to get through 
 
 
 ## 1.5 Verification Screenshots
-The section houses some screenshots showcasing that all my steps were a complete success
+The section houses some screenshots showcasing that my build steps were a success
 <p align="left">
    <b>DC01 Network Configuration</b>
    <br>
