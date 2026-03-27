@@ -1,4 +1,5 @@
 # Phase 1.0: Environment Setup
+The first phase of the lab is focused on installing the virtual machines and ensuring they are properly configured and connected to provide a stable foundation for the Active Directory setup.
 ## 1.1: Hardware / Software Utilization
 This section discusses how my VM's will be setup on my personal host, along with the resources allocated to each Virtual Machine
 
