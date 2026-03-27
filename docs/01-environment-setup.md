@@ -41,7 +41,7 @@ This section goes over some troubles I ran into while attempting to get through 
 <p align="left">
    <b>Error 1: While attempting to ping DC01 from CLIENT01 the requests were timed out</b>
    <br>
-   <img src="../diagrams/.png" width="70%">
+   <img src="../diagrams/firewall-icmp-fix.png" width="70%">
    <br>
    <i>Fix: Went into Windows Defender Firewall w/ Advanced Security on both machines to allow inbound rule for ICMPv4</i>
 </p>
