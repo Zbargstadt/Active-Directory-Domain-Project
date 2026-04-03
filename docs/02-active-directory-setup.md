@@ -1,6 +1,8 @@
 # Phase 2.0: Active Directory Setup
+This phase begins to dive into the simple setup of the Active Directory Domain Service on DC01, along with some DNS & DHCP setup for practice
 
 ## 2.1: Domain Controller & Adding CLIENT01 to Domain
+This section goes over how I went about promoting DC01 to the domain controller, and then how I added CLIENT01 as a computer to the domain
 * **Installing Active Directory Domain Services**
     * On DC01, go to Server Manager > Manage > Add Roles & Features > Active Directory Domain Services
     * After installation click option for "Promote this server to a domain controller"
@@ -12,6 +14,7 @@
    * Set Domain to "LAB.DOMAIN.COM", Then use administrator login credentials
 
 ## 2.2: DNS Server
+This section is where I go into the DNS manager in order to practice the concepts of reverse lookup & DNS forwarding
 * **Reverse Lookup Zone**
    * In DNS Manager, Reverse Lookup Zones > New Zone > Primary Zone > IPV4
    * Set Network ID: 192.168.10
@@ -23,6 +26,7 @@
    * Add: 1.1.1.1 (cloudflare)
   
 ## 2.3: DHCP Server
+This is where I then use the DHCP setting in order to setup a IP scope for the domain to dynamically assign a IP address to CLIENT01
 * **Installing DHCP**
     * On DC01, go to Server Manager > Manage > Add Roles & Features > DHCP Server
     * Once installed then make sure to complete DHCP configuration & authroize for AD
@@ -59,6 +63,6 @@ The section houses some screenshots showcasing that my domain, DNS, & DHCP setup
    <br>
    <img src="../diagrams/dhcp-enabled.png" width="70%">
    <br>
-   <i>Figure 2: Shows that CLIENT01 has successfully received a dynamic IP address from the domain DHCP server </i>
+   <i>Figure 3: Shows that CLIENT01 has successfully received a dynamic IP address from the domain DHCP server </i>
 </p>
 
