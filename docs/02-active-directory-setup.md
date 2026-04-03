@@ -36,7 +36,29 @@
    * On CLIENT01, change Manual to Dynamic (DHCP)
    * Verify with *"ipconfig /renew"*
 
-## 2.4: Troublshooting
-
-
 ## 2.5: Verification Screenshots
+The section houses some screenshots showcasing that my domain, DNS, & DHCP setups were a success
+<p align="left">
+   <b>CLIENT01 Joins Domain</b>
+   <br>
+   <img src="../diagrams/client01-join.png" width="70%">
+   <br>
+   <i>Figure 1: Confirmed CLIENT01 is joined into domain.</i>
+</p>
+
+<p align="left">
+   <b>DNS Reverse Lookup / Forwarding </b>
+   <br>
+   <img src="../diagrams/dns-reverse-forward.png" width="70%">
+   <br>
+   <i>Figure 2: Shows a sucessful reverse lookup of 192.168.10.10 & forwarded dns resolution for google.com </i>
+</p>
+
+<p align="left">
+   <b>DHCP Enabled on CLIENT01 </b>
+   <br>
+   <img src="../diagrams/dhcp-enabled.png" width="70%">
+   <br>
+   <i>Figure 2: Shows that CLIENT01 has successfully received a dynamic IP address from the domain DHCP server </i>
+</p>
+
