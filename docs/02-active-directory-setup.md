@@ -2,7 +2,7 @@
 
 ## 2.1: Domain Controller & Adding CLIENT01 to Domain
 * **Installing Active Directory Domain Services**
-    * On Windows Server machine, go to Server Manager > Manage > Add Roles & Features > Active Directory Domain Services
+    * On DC01, go to Server Manager > Manage > Add Roles & Features > Active Directory Domain Services
     * After installation click option for "Promote this server to a domain controller"
     * Added a new forest with the domain name lab.domain.com, in order to follow sub domain naming practices
 * **Configuring setting on CLIENT01**
@@ -18,13 +18,13 @@
    * Create PTR record for 192.168.10.10 w/ hostname dc01.lab.domain.com
    * Use "nslookup 192.168.10.10" to verify
 * **DNS Forwarders**
-   * While still in DNS manager, go to dc01.lab.domain.com > properties > forwarders
+   * In DNS manager, go to dc01.lab.domain.com > properties > forwarders
    * Add: 8.8.8.8 (google)
    * Add: 1.1.1.1 (cloudflare)
   
 ## 2.3: DHCP Server
 * **Installing DHCP**
-    * On Windows Server machine, go to Server Manager > Manage > Add Roles & Features > DHCP Server
+    * On DC01, go to Server Manager > Manage > Add Roles & Features > DHCP Server
     * Once installed then make sure to complete DHCP configuration & authroize for AD
 * **Setting IP Scopes**
    * In DHCP, IPV4 > New Scope
@@ -33,7 +33,8 @@
    * Default Gateway: 192.168.10.2
    * DNS: 192.168.10.10
 * **Setting Dynamic IP on CLIENT01**
-   * 
+   * On CLIENT01, change Manual to Dynamic (DHCP)
+   * Verify with ipconfig /renew
 
 ## 2.4: Troublshooting
 
