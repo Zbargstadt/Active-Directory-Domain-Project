@@ -50,7 +50,7 @@ The section houses some screenshots showcasing that my domain, DNS, & DHCP setup
 </p>
 
 <p align="left">
-   <b>DNS Reverse Lookup / Forwarding </b>
+   <b>DNS Reverse Lookup and Forwarding </b>
    <br>
    <img src="../diagrams/dns-reverse-forward.png" width="70%">
    <br>
