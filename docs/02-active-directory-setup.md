@@ -34,7 +34,7 @@
    * DNS: 192.168.10.10
 * **Setting Dynamic IP on CLIENT01**
    * On CLIENT01, change Manual to Dynamic (DHCP)
-   * Verify with ipconfig /renew
+   * Verify with *"ipconfig /renew"*
 
 ## 2.4: Troublshooting
 
