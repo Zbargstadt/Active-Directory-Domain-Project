@@ -1,8 +1,7 @@
 # Phase 2.0: Active Directory Setup
-This phase begins to dive into the simple setup of the Active Directory Domain Service on DC01, along with some DNS & DHCP setup for practice
-
+This phase focuses on deploying Active Directory Domain Services (AD DS) on DC01, along with configuring DNS and DHCP services to support domain functionality within the lab environment.
 ## 2.1: Domain Controller & Adding CLIENT01 to Domain
-This section goes over how I went about promoting DC01 to the domain controller, and then how I added CLIENT01 as a computer to the domain
+This section documents the process of promoting DC01 to a domain controller and joining CLIENT01 to the newly created domain.
 * **Installing Active Directory Domain Services**
     * On DC01, go to Server Manager > Manage > Add Roles & Features > Active Directory Domain Services
     * After installation click option for "Promote this server to a domain controller"
@@ -14,7 +13,7 @@ This section goes over how I went about promoting DC01 to the domain controller,
    * Set Domain to "LAB.DOMAIN.COM", Then use administrator login credentials
 
 ## 2.2: DNS Server
-This section is where I go into the DNS manager in order to practice the concepts of reverse lookup & DNS forwarding
+This section demonstrates DNS configuration concepts including reverse lookup zones and DNS forwarding.
 * **Reverse Lookup Zone**
    * In DNS Manager, Reverse Lookup Zones > New Zone > Primary Zone > IPV4
    * Set Network ID: 192.168.10
