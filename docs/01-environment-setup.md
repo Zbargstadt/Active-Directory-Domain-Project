@@ -36,19 +36,7 @@ These are the setting for the VMware network editor that mimic a switch connecti
     * Set "temp" static IP `192.168.10.20` to allow communication
     * Verified network connectivity to `DC01` via ICMP (ping)
 
-## 1.4 Troubleshooting 
-This section goes over some troubles I ran into while attempting to get through phase 1, along with the solution to solve it.
-
-<p align="left">
-   <b>Error 1: While attempting to ping DC01 from CLIENT01 the requests were timed out</b>
-   <br>
-   <img src="../diagrams/firewall-icmp-fix.png" width="70%">
-   <br>
-   <i>Fix: Went into Windows Defender Firewall w/ Advanced Security on both machines to allow inbound rule for ICMPv4</i>
-</p>
-
-
-## 1.5 Verification Screenshots
+## 1.4 Verification Screenshots
 The section houses some screenshots showcasing that my build steps were a success
 <p align="left">
    <b>DC01 Network Configuration</b>
@@ -66,3 +54,13 @@ The section houses some screenshots showcasing that my build steps were a succes
    <i>Figure 2: Successful ICMP ping from Windows 11 Client to DC01.</i>
 </p>
 
+## 1.5 Troubleshooting 
+This section goes over some troubles I ran into while attempting to get through phase 1, along with the solution to solve it.
+
+<p align="left">
+   <b>Error 1: While attempting to ping DC01 from CLIENT01 the requests were timed out</b>
+   <br>
+   <img src="../diagrams/firewall-icmp-fix.png" width="70%">
+   <br>
+   <i>Fix: Went into Windows Defender Firewall w/ Advanced Security on both machines to allow inbound rule for ICMPv4</i>
+</p>
