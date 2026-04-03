@@ -26,7 +26,7 @@ This section is where I go into the DNS manager in order to practice the concept
    * Add: 1.1.1.1 (cloudflare)
   
 ## 2.3: DHCP Server
-This is where I then use the DHCP setting in order to setup a IP scope for the domain to dynamically assign a IP address to CLIENT01
+This is where I then use the DHCP setting to create a IP scope for the domain so I can dynamically assign an IP address to CLIENT01
 * **Installing DHCP**
     * On DC01, go to Server Manager > Manage > Add Roles & Features > DHCP Server
     * Once installed then make sure to complete DHCP configuration & authroize for AD
