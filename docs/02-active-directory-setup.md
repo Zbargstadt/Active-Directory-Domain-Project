@@ -1,14 +1,14 @@
 # Phase 2.0: Active Directory Setup
 
-## 2.1: Domain Controller Promotion
+## 2.1: Domain Controller & Adding CLIENT01 to Domain
 * **Installing Active Directory Domain Services**
     * On Windows Server machine go to Server Manager > Manage > Add Roles & Features > Active Directory Domain Services
     * After installation click option for "Promote this server to a domain controller"
     * Added a new forest with the domain name lab.domain.com, in order to follow sub domain naming practices
-
-
-## 2.2: Adding CLIENT01 to Domain
-* 
+* **Configuring setting on CLIENT01**
+   * Set prefered DNS to 192.168.10.10 (DC01)
+   * Navigate to Settings > System > About > "Domain or workgroup" > Use Domain name & admin login
+   * Restart Machine
 
 ## 2.3: DNS Server
 
