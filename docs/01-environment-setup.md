@@ -37,7 +37,7 @@ These are the setting for the VMware network editor that mimic a switch connecti
     * Verified network connectivity to `DC01` via ICMP (ping)
 
 ## 1.4 Verification Screenshots
-The section houses some screenshots showcasing that my build steps were a success
+This section houses screenshots showcasing that the build steps were a success
 <p align="left">
    <b>DC01 Network Configuration</b>
    <br>
