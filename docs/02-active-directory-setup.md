@@ -40,7 +40,7 @@ This is where I then use the DHCP setting to create a IP scope for the domain so
    * Verify with *"ipconfig /renew"*
 
 ## 2.5: Verification Screenshots
-The section houses some screenshots showcasing that my domain, DNS, & DHCP setups were a success
+This section houses some screenshots showcasing that my domain, DNS, & DHCP setups were a success
 <p align="left">
    <b>CLIENT01 Joins Domain</b>
    <br>
