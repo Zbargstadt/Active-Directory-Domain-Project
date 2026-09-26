@@ -4,7 +4,7 @@ This phase is going to cover the setup of a fake organizational structure includ
 Firstly, to establish the "heirarchy" of the enterprise, im deploying a multitude of OU's that establish the blueprint of which my "enterprise" will build upon later with Users & GPOs.
 * **Establishing High Level OUs**
   * From DC01, access Active Directory User & Computers > lab.domain.com > Organizational Units
-  * For my top level OUs I created one for a geographical branch of the company, titled US-West, in this case it can be assumed that other branches exist, but they wont currently be necessary for the faux enterprise
+  * This domain will currently consist of two top level OUs, one for a geographical branch of the company, titled US-West, in this case it can be assumed that other branches exist, but they wont currently be necessary for the faux enterprise
   * Furthmore, another top level OU exists titled Domain_Admins, which will possess the machines & users with the highest privileges, this would include the Domain Controller & any domain admin accounts
 
 * **US-West Branch**
